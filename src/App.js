@@ -1,6 +1,6 @@
 
 import './App.css';
-import GetTodos from "./components/GetTodos.js";
+import Todos from "./components/Todos.js";
 import AddTodo from "./components/AddTodo.js";
 
 
@@ -8,8 +8,7 @@ function App() {
   return (
     <div className="App">
       <AddTodo />
-      <GetTodos />
-    
+      <Todos />
     </div>
   );
 }
